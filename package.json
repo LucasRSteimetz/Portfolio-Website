@@ -1,0 +1,28 @@
+{
+  "name": "personal_blog",
+  "version": "1.0.0",
+  "description": "backend for personal blog",
+  "homepage": "https://github.com/LucasRSteimetz/Portfolio-Website#readme",
+  "bugs": {
+    "url": "https://github.com/LucasRSteimetz/Portfolio-Website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasRSteimetz/Portfolio-Website.git"
+  },
+  "license": "ISC",
+  "author": "Lucas",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
+}
